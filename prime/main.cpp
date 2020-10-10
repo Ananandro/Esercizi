@@ -11,7 +11,7 @@ int main()
     // cin >> n;
 
     if (isPrime(n))
-        cout << n << " is a prime number";
+        cout << n << " E PRIMOOOOOO";
     else
-        cout << n << " is not a prime number";
+        cout << n << " NON E PRIMO";
 }

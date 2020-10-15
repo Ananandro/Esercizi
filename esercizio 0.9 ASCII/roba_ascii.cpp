@@ -1,14 +1,9 @@
 #include <iostream>
-#include <stdio.h>
+
 using namespace std;
 
-int i;
-char x;
-int z;
-char y;
-int u;
-char p;
-
+int i, z, u;
+char x, y, p;
 
 int main(){
 

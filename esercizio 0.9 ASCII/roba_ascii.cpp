@@ -30,4 +30,5 @@ for(u=48; u<=57; u++){
     cout << "CHAR: " << p << "\t ASCII:" << u << "\n";
 
     }
+    return 0;
 }

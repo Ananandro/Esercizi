@@ -2,11 +2,11 @@
 using namespace std;
 
 
-int powint(int base, int esp){
+int powint(int x, int y){
 
     int res = 1;
-    for(int k=0; k < esp; k++){
-        res *= base;
+    for(int k=0; k < y; k++){
+        res *= x;
     }
     return res;
 }
@@ -21,6 +21,6 @@ cout << "Inserisci base" << endl;
 cin >> base;
 cout << "Inserisci esponente" << endl;
 cin >> esp;
-cout << "Il risultato e': \t" << powint;
+cout << "Il risultato e': \t" << powint(base, esp);
 
 }
